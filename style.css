@@ -1,0 +1,78 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ol {
+    display: flex;
+    gap: 30px;
+}
+
+.right ol li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 7px;
+}
+.right ol li:hover{
+    cursor: pointer;
+}
+
+body {
+    JUSTIFY-CONTENT: space-around;
+}
+
+.logo {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo img {
+    width: 130v;
+    height: 70px;
+}
+.head{
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head2{
+    font-size: 44px;
+    text-align: center;
+    
+}
+header{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+pre {
+     font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bluebox{
+    border: 2px solid rgb(101, 161, 188);
+    background-color: rgb(101, 161, 188);
+    height: 40px;
+    width: 23vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    align-content: center;
+
+}
+div .bluebox{
+    display: flex;
+    margin: 100px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
